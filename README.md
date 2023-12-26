@@ -1,2 +1,2 @@
-# MemCleaner
-Очистка оперативной памяти Windows при помощи rust
+# Mem Cleaner Rust + Tauri
+Очистка оперативной памяти при помощи rust

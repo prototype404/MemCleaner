@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script type="module" src="/main.js" defer></script>
+  </head>
+<body>
+    <div id="application">
+        <div class="titlebar" data-tauri-drag-region>
+            <span class="title">Mem Cleaner</span>
+            <div class="titlebar-buttons">
+                <i class="bi bi-dash-lg" id="collapse"></i>
+                <i class="bi bi-x" id="close"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="usage_percent">
+                <span>Используется:</span>
+                <span class="usage">0%</span>
+            </div>
+            <form id="from">
+                <button type="submit" id="clean">Очистить</button>
+                <span class="info"></span>
+            </form>
+        </div>
+        <div class="footer">
+          <span class="cop">FastCore 2023</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "mem-cleaner",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "window": {
+        "startDragging": true,
+        "minimize": true,
+        "close": true
+      },
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.memcleaner"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "width": 300,
+        "height": 400,
+        "decorations": false,
+        "transparent": true,
+        "resizable": false
+      }
+    ]
+  }
+}
